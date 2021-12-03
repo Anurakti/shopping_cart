@@ -37,7 +37,7 @@ function App() {
 
   const setCartHandler=(product)=>{
     setCart([product,...cart])
-    alert("item added to cart")
+    alert(`${product.title} added to cart`)
   }
 
   console.log("cart",cart)
