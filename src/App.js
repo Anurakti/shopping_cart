@@ -4,7 +4,7 @@ import Loading from './Loading';
 import Products from './Products';
 import Navigation from './Navigation';
 import Cart from './Cart';
-import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
+import {HashRouter as Router,Route,Routes} from "react-router-dom"
 
 function App() {
   const url = "https://fakestoreapi.com/products"
